@@ -1,0 +1,2 @@
+﻿ERROR - c:\creo13-Library\Zeichnungsvoreinstellungsdatei\DIN_01_14.dtl, line 144:
+Keyword 'show_axes_by_view_scope' is not valid.

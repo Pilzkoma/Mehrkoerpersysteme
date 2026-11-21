@@ -4,7 +4,19 @@
 Die folgenden Positionsbedingungen können nicht erfüllt werden:
 
 
-1) Die folgende kinematische Schleife kann nicht geschlossen werden: body1 -
-body2 - body6 - body7 - body4 - body3 - body1.
+1) Randbedingung von Erste Rotationsachse in Verbindung Connection_46 in Modell
+KNICKARMROBOTER kann nicht erfüllt werden.
+
+
+2) Randbedingung von Erste Rotationsachse in Verbindung Connection_47 in Modell
+KNICKARMROBOTER kann nicht erfüllt werden.
+
+
+3) Randbedingung von Erste Rotationsachse in Verbindung Connection_54 in Modell
+KNICKARMROBOTER kann nicht erfüllt werden.
+
+
+4) Die folgende kinematische Schleife kann nicht geschlossen werden: body1 -
+body2 - body4 - body3 - body1.
 
 
