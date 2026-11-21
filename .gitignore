@@ -1,0 +1,8 @@
+# Simulink-Cache und Build-Ordner
+slprj/
+*.slxc
+# Creo-Versionsstaende und Export-Logs
+*.prt.*
+*.asm.*
+*.drw.*
+*__out.log.*
