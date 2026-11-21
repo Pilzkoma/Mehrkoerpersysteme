@@ -1,0 +1,5 @@
+# Creo-Dateien nie als Text behandeln (keine Zeilenende-Umwandlung)
+*.prt binary
+*.asm binary
+*.drw binary
+*.pdf binary
