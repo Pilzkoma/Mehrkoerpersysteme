@@ -21,29 +21,47 @@ theta1 = np.deg2rad(180)   # [rad]
 d1     = 67.7532
 a1     = 0.0
 alpha1 = np.deg2rad(-90)   # [rad]
+dh1 = dh_matrix(theta1, d1, a1, alpha1)
+
+trans_1 = np.array([
+    [1,  0, 0, 0.0855906],
+    [0,  1, 0, 0],
+    [0,  0, 1, 0],
+    [0,  0, 0, 1],
+])
 
 # Gelenk 2
 theta2 = np.deg2rad(90)   # [rad]
 d2     = 0.0
 a2     = -100
 alpha2 = np.deg2rad(0.0)   # [rad]
+dh2 = dh_matrix(theta2, d2, a2, alpha2)
 
 # Gelenk 3
 theta3 = np.deg2rad(90)   # [rad]
 d3     = 0.0
 a3     = 100
 alpha3 = np.deg2rad(0.0)   # [rad]
+dh3 = dh_matrix(theta3, d3, a3, alpha3)
 
 # Gelenk 4
 theta4 = np.deg2rad(90)   # [rad]
 d4     = 0.0
 a4     = -110
 alpha4 = np.deg2rad(90)   # [rad]
+dh4 = dh_matrix(theta4, d4, a4, alpha4)
 
+trans_4 = np.array([
+    [1,  0, 0, 0],
+    [0,  1, 0, 0],
+    [0,  0, 1, 3],
+    [0,  0, 0, 1],
+])
+
+# Gesamttransformation
+T = trans_1 @ dh1 @ dh2 @ dh3 @ trans_4 @ dh4
 
 if __name__ == "__main__":
-    np.set_printoptions(precision=4, suppress=True)
-    # print(dh_matrix(theta1, d1, a1, alpha1))
-    # print(dh_matrix(theta2, d2, a2, alpha2))
-    # print(dh_matrix(theta3, d3, a3, alpha3))
-    print(dh_matrix(theta4, d4, a4, alpha4))
+    np.set_printoptions(precision=8, suppress=True)
+    print(T)
+    # print(dh4)
