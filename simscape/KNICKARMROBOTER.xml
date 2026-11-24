@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="khoa1" on="11/24/26||22:11:25" using="Simscape Multibody Link Version 7.4" from="Pro/Engineer Creo 13 - 2026092"/>
+<ModelUnits mass="kg" length="mm"/>
+<RootAssembly name="KNICKARMROBOTER" uid="KNICKARMROBOTER_asm" version="131788">
+<AssemblyFile name="KNICKARMROBOTER.asm" type="ProEngineer Assembly"/>
+<InstanceTree>
+<Instance name="MONTAGEPLATTE" grounded="true" uid="40" entityUid="MONTAGEPLATTE_prt">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="47" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>6 -40 -17</Translation>
+</Transform>
+</Instance>
+<Instance name="LAGERPLATTE" uid="110" entityUid="LAGERPLATTE_prt">
+<Transform>
+<Rotation>0 0 1 -1.0000000000000018 0 0 0 -1.0000000000000018 0</Rotation>
+<Translation>25 3.5527136788005009e-14 3.907985046680551e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="111" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>26 -40 -25</Translation>
+</Transform>
+</Instance>
+<Instance name="ARMAUFNAHME" uid="114" entityUid="ARMAUFNAHME_prt">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>37 -9.9999999999999982 -50</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="115" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>69.753179598962788 -50 -25.085590570227989</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="118" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>1 6.1428692206172518e-16 0 0 0 -1 -6.1428692206172518e-16 1 0</Rotation>
+<Translation>69.753179598962845 -29.999999999999996 -25.085590570228003</Translation>
+</Transform>
+</Instance>
+<Instance name="ARMTEIL2" uid="153" entityUid="ARMTEIL2_prt">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>119.75317959896286 -32.499999999999986 -25.085590570228007</Translation>
+</Transform>
+</Instance>
+<Instance name="ARMTEIL2" uid="154" entityUid="ARMTEIL2_prt">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>119.7531795989628 -47.499999999999986 -25.085590570227982</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="155" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>2.4424906541753444e-15 -1 -7.2164496600635175e-16 7.2164496600635175e-16 7.7715611723760958e-16 -0.99999999999999989 1 2.3314683517128287e-15 7.7715611723760958e-16</Rotation>
+<Translation>77.753179598962845 -8.4999999999999982 -25.085590570228032</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="158" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>6.6613381477509383e-16 -1 0 7.8365693782617864e-15 -3.9070728234239049e-15 0.99999999999999956 -1 -6.6613381477509383e-16 0</Rotation>
+<Translation>77.753179598962788 -71.499999999999986 -25.085590570227982</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="159" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>1 -8.6736173798840355e-14 0 0 0 -1 8.6736173798840355e-14 1 0</Rotation>
+<Translation>169.75317959896287 -29.999999999999996 -25.08559057022801</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="162" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>1 1.7486012637846216e-15 0 0 0 1 1.7486012637846216e-15 -1 0</Rotation>
+<Translation>169.75317959896282 -49.999999999999993 -25.085590570227975</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="165" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>1.1657341758564142e-15 1 0 -1.3208660101611535e-14 -5.9197877862342852e-15 0.99999999999999911 1 -1.1657341758564142e-15 0</Rotation>
+<Translation>161.75317959896284 -71.499999999999972 -25.085590570227964</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="166" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>1.2767564783189298e-15 1 0 1.0521921319073881e-14 5.1352570444154828e-15 -0.99999999999999989 -1 1.2767564783189298e-15 0</Rotation>
+<Translation>161.75317959896287 -8.4999999999999982 -25.085590570228025</Translation>
+</Transform>
+</Instance>
+<Instance name="ARMTEILE" uid="167" entityUid="ARMTEILE_prt">
+<Transform>
+<Rotation>-6.6613381477509392e-16 1 0 0 0 1 1 6.6613381477509392e-16 0</Rotation>
+<Translation>144.75317959896307 -45 -125.08559057022811</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="174" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>-0.27008734920590188 -0.96283582390713374 0 0 0 0.99999999999999978 -0.96283582390713374 0.27008734920590177 0</Rotation>
+<Translation>169.75317959896307 -50 -125.08559057022809</Translation>
+</Transform>
+</Instance>
+<Instance name="KUGELLAGER" uid="177" entityUid="KUGELLAGER_prt">
+<Transform>
+<Rotation>-0.27008734919482069 -0.96283582391024236 0 0 0 1.0000000000000002 -0.96283582391024236 0.27008734919482097 0</Rotation>
+<Translation>169.75317959896307 -33.999999999999993 -125.08559057022809</Translation>
+</Transform>
+</Instance>
+<Instance name="MONTAGEWINKEL" uid="182" entityUid="MONTAGEWINKEL_prt">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>129.75317959896302 -29 -155.08559057022805</Translation>
+</Transform>
+</Instance>
+<Instance name="0002-02-BG-GREIFER" uid="183" entityUid="0002-02-BG-GREIFER_prt">
+<Transform>
+<Rotation>0 1 0 -1 0 5.5511151231257817e-16 5.5511151231257817e-16 0 1</Rotation>
+<Translation>129.75317959896302 -43 -125.08559057022802</Translation>
+</Transform>
+</Instance>
+<Instance name="0001-01-BT-28BYJ-48" uid="184" entityUid="0001-01-BT-28BYJ-48_prt">
+<Transform>
+<Rotation>1.2767564783189298e-15 -1 0 1.0967139680464011e-14 -4.9120434631035336e-15 0.99999999999999933 -1 -1.2767564783189298e-15 0</Rotation>
+<Translation>177.75317959896302 -73 -125.08559057022804</Translation>
+</Transform>
+</Instance>
+<Instance name="POSITIONSPLATTE" uid="185" entityUid="POSITIONSPLATTE_prt">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>-2 -40 0.20000000000000284</Translation>
+</Transform>
+</Instance>
+<Instance name="ISO2338-8M6X14-ST" uid="186" entityUid="ISO2338-8M6X14-ST_prt">
+<Transform>
+<Rotation>-1 0 0 0 -0.95167483704226918 0.30710748043733893 0 0.30710748043733893 0.95167483704226918</Rotation>
+<Translation>28.25 -93 -90.999999999999972</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Rigid name="Rigid_47_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_110_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>110</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_111_0">
+<InstancePath>
+<Uid>110</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>111</Uid>
+</InstancePath>
+</Rigid>
+<Concentric name="Concentric_114_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 8 20.5</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>114</Uid>
+</InstancePath>
+<Position>30 -8 25</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident_114_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47</Uid>
+</InstancePath>
+<Position>0 0 23</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>114</Uid>
+</InstancePath>
+<Position>-9.9999999999999982 -8 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_115_0">
+<InstancePath>
+<Uid>114</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>115</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_118_0">
+<InstancePath>
+<Uid>114</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>118</Uid>
+</InstancePath>
+</Rigid>
+<Concentric name="Concentric_153_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>118</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<Position>-50 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident_153_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>118</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<Position>0 0 2.5</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric_154_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>115</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<Position>-50 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident_154_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>115</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<Position>0 0 2.5</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_155_0">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>155</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_158_0">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>158</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_159_0">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>159</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_162_0">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>162</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_165_0">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>165</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_166_0">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>166</Uid>
+</InstancePath>
+</Rigid>
+<Concentric name="Concentric_167_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>159</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<Position>100 24.999999999999901 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance_167_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>153</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<Position>0 0 10</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric_167_2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>162</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<Position>100 24.999999999999901 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance_167_3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>154</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Rigid name="Rigid_174_0">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>174</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_177_0">
+<InstancePath>
+<Uid>167</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>177</Uid>
+</InstancePath>
+</Rigid>
+<Concentric name="Concentric_182_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>177</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>182</Uid>
+</InstancePath>
+<Position>-11.5 30 -40</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident_182_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>177</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>182</Uid>
+</InstancePath>
+<Position>5 0 -10</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric_183_0">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>182</Uid>
+</InstancePath>
+<Position>14 30 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>183</Uid>
+</InstancePath>
+<Position>0 -80.849999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident_183_1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>182</Uid>
+</InstancePath>
+<Position>-3 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>183</Uid>
+</InstancePath>
+<Position>14 0 -6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Rigid name="Rigid_184_0">
+<InstancePath>
+<Uid>182</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>184</Uid>
+</InstancePath>
+</Rigid>
+<Rigid name="Rigid_185_0">
+<InstancePath>
+<Uid>40</Uid>
+</InstancePath>
+<InstancePath>
+<Uid>185</Uid>
+</InstancePath>
+</Rigid>
+<Concentric name="Concentric_186_0">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>185</Uid>
+</InstancePath>
+<Position>53 91.199999999999989 9.3999999999999986</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>186</Uid>
+</InstancePath>
+<Position>14.699999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+<Frames>
+<Frame name="CS_DH1" uid="1899">
+<Transform>
+<Rotation>0 -1 0 0 0 -1 1 0 0</Rotation>
+<Translation>69.753179598962802 -40 -25.085590570227989</Translation>
+</Transform>
+</Frame>
+<Frame name="CS_DH2" uid="1903">
+<Transform>
+<Rotation>-1 6.6613381477509392e-16 0 0 0 -1 -6.6613381477509392e-16 -1 0</Rotation>
+<Translation>169.7531795989629 -39.999999999999993 -25.085590570228092</Translation>
+</Transform>
+</Frame>
+<Frame name="CS_DH3" uid="1905">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>169.75317959896302 -40 -125.08559057022805</Translation>
+</Transform>
+</Frame>
+<Frame name="CS_DH0" uid="2178">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>2 -40 -24.999999999999996</Translation>
+</Transform>
+</Frame>
+</Frames>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="0001-01-BT-28BYJ-48" uid="0001-01-BT-28BYJ-48_prt" version="1097">
+<PartFile name="0001-01-BT-28BYJ-48.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.0320027254311126</Mass>
+<CenterOfMass>0 -0.81504064882922478 9.8109562827074086</CenterOfMass>
+<Inertia>2.9491413285777925 2.5322363452735761 3.4242712534066841 -0.046370673513577959 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="0001-01-bt-28byj-48_prt.step" type="STEP"/>
+</Part>
+<Part name="0002-02-BG-GREIFER" uid="0002-02-BG-GREIFER_prt" version="1189">
+<PartFile name="0002-02-BG-GREIFER.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.0062273171569214849</Mass>
+<CenterOfMass>0 -33.692081264845598 0</CenterOfMass>
+<Inertia>3.7150808252308711 0.8751813145434757 4.4390214298457593 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="0002-02-bg-greifer_prt.step" type="STEP"/>
+</Part>
+<Part name="ARMAUFNAHME" uid="ARMAUFNAHME_prt" version="1360">
+<PartFile name="ARMAUFNAHME.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.43897887087841314</Mass>
+<CenterOfMass>30.000000000000846 6.3584675613632813 24.999556054839715</CenterOfMass>
+<Inertia>179.45440768953918 226.67357138823979 224.67519928627544 0.0051415656364071083 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="armaufnahme_prt.step" type="STEP"/>
+</Part>
+<Part name="ARMTEIL2" uid="ARMTEIL2_prt" version="1084">
+<PartFile name="ARMTEIL2.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.35407105221346236</Mass>
+<CenterOfMass>0 0 0.86958952758322328</CenterOfMass>
+<Inertia>75.350263953276411 430.78858956831704 499.04296415660565 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="armteil2_prt.step" type="STEP"/>
+<Frames>
+<Frame name="CS_DH" uid="745">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-50 0 -7.4999999999999991</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="ARMTEILE" uid="ARMTEILE_prt" version="1594">
+<PartFile name="ARMTEILE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.54723219994759453</Mass>
+<CenterOfMass>49.925454383932532 24.999994308024906 5</CenterOfMass>
+<Inertia>110.33224049015719 907.69005891363645 1008.4841753650444 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="armteile_prt.step" type="STEP"/>
+</Part>
+<Part name="ISO2338-8M6X14-ST" uid="ISO2338-8M6X14-ST_prt" version="261">
+<PartFile name="ISO2338-8M6X14-ST.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.0053936790378227009</Mass>
+<CenterOfMass>7 0 0</CenterOfMass>
+<Inertia>0.042248000799118945 0.10588476678132332 0.10588471838723167 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="iso2338-8m6x14-st_prt.step" type="STEP"/>
+</Part>
+<Part name="KUGELLAGER" uid="KUGELLAGER_prt" version="279">
+<PartFile name="KUGELLAGER.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.0032458144485544242</Mass>
+<CenterOfMass>0 0 2</CenterOfMass>
+<Inertia>0.057072228862352463 0.057072245911811467 0.10548896957801879 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="kugellager_prt.step" type="STEP"/>
+</Part>
+<Part name="LAGERPLATTE" uid="LAGERPLATTE_prt" version="459">
+<PartFile name="LAGERPLATTE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.096959633625171765</Mass>
+<CenterOfMass>39.999998300702245 25.12973391454987 1.6124529435506518</CenterOfMass>
+<Inertia>21.14169198374098 53.831820471493394 74.801839830320091 -0.0036280061514259998 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lagerplatte_prt.step" type="STEP"/>
+</Part>
+<Part name="MONTAGEPLATTE" uid="MONTAGEPLATTE_prt" version="1187">
+<PartFile name="MONTAGEPLATTE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.6706690759410483</Mass>
+<CenterOfMass>12.087242919093976 -39.999992376079909 -26.536961887617441</CenterOfMass>
+<Inertia>556.35312353666245 181.28420937267853 447.10890672461949 0 2.9426189963296281 0</Inertia>
+</MassProperties>
+<GeometryFile name="montageplatte_prt.step" type="STEP"/>
+</Part>
+<Part name="MONTAGEWINKEL" uid="MONTAGEWINKEL_prt" version="1003">
+<PartFile name="MONTAGEWINKEL.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>0.47743645052646444</Mass>
+<CenterOfMass>10.989481862156548 30.000005043882133 -26.391878052422133</CenterOfMass>
+<Inertia>300.54614326934654 198.32390328607008 191.15847133095329 0 0.10506683192789978 0</Inertia>
+</MassProperties>
+<GeometryFile name="montagewinkel_prt.step" type="STEP"/>
+</Part>
+<Part name="POSITIONSPLATTE" uid="POSITIONSPLATTE_prt" version="542">
+<PartFile name="POSITIONSPLATTE.prt" type="ProEngineer Part"/>
+<MassProperties>
+<Mass>1.2437631898459032</Mass>
+<CenterOfMass>-0.65483211369639904 103.92558394157773 2.2548391692914045</CenterOfMass>
+<Inertia>3804.4302585027085 4410.3341931829355 8205.5366930727214 -4.679926086197213 5.4898313779944532 43.715467080671473</Inertia>
+</MassProperties>
+<GeometryFile name="positionsplatte_prt.step" type="STEP"/>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
